@@ -1,0 +1,72 @@
+:root {
+  --light: #E8E9EB;
+  --dark: black;
+  --height: 100%;
+  --width: 100%
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+  --width: 100%;
+  overflow: hidden;
+  margin: 3% 5% 0 5%;
+  font-family: 'Noto Sans Mono', monospace;
+  font-size: 18px;
+  background-color: black;
+  text-align: left;
+  font-weight: 300;
+  color: white;
+}
+
+
+.home__header {
+  width: 100%;
+  height: 30%;
+  position: fixed;
+  display: block;
+  text-decoration: none;
+}
+
+.home__footer {
+  width: 100%;
+  height: 50%;
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+}
+
+.home__footer__section__presentation:hover, 
+.home__footer__section__traitements:hover,
+.home__footer__section__contact:hover {
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 300;
+  transform: scale(0, 0.3);
+}
+
+svg {
+  width: 90%;
+  fill: white;
+  font-size: 30%;
+}
+
+.presentation__body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  text-align: center;
+}
+
+.views__footer {
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 300;
+  font-size: 10%;
+  /* transform-origin: ; */
+  /* transition-duration: ; */
+  width: 20%;
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+
+}
